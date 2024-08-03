@@ -23,11 +23,13 @@ const StringCalculator = {
         const { delimiters, numbers: numStr } = extractDelimiters(numbers);
         const numList = parseNumbers(numStr, delimiters);
 
+        //Check for negative numbers
         const negatives = numList.filter(n => n < 0);
         if (negatives.length > 0) {
             throw new Error(`negative numbers not allowed ${negatives.join(', ')}`);
         }
 
+        //Add the number list
         return numList.reduce((sum, n) => sum + n, 0);
     }
 };
