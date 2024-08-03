@@ -14,7 +14,7 @@ npm test
 
     StringCalculator(1,2,3,4)
 
-Input: a string of comma-separated numbers
+Input: a string of comma-separated numbers  
 Output: an integer, sum of the numbers
 
 ## Examples:
