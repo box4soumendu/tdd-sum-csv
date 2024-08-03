@@ -4,11 +4,13 @@ const StringCalculator = {
     add(numbers) {
         if (!numbers) return 0;
 
+        // splits the string based on delimiters and converts the parts to numbers
         const parseNumbers = (str, delimiters) => {
             const pattern = new RegExp(delimiters.map(d => d.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'));
             return str.split(pattern).map(Number);
         };
 
+        //handles the extraction of custom delimiters and the remaining number string.
         const extractDelimiters = (str) => {
             if (str.startsWith('//')) {
                 const parts = str.split('\n', 2);
