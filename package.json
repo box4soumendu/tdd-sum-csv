@@ -4,7 +4,7 @@
   "description": "tdd assignment test",
   "main": "StringCalculator.js",
   "scripts": {
-    "test": "test"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
