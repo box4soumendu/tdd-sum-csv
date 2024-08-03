@@ -1,0 +1,25 @@
+{
+  "name": "tdd-sum-csv",
+  "version": "1.0.0",
+  "description": "tdd assignment test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/box4soumendu/tdd-sum-csv.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "Soumendu Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/box4soumendu/tdd-sum-csv/issues"
+  },
+  "homepage": "https://github.com/box4soumendu/tdd-sum-csv#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
