@@ -2,7 +2,7 @@
   "name": "tdd-sum-csv",
   "version": "1.0.0",
   "description": "tdd assignment test",
-  "main": "index.js",
+  "main": "StringCalculator.js",
   "scripts": {
     "test": "test"
   },
