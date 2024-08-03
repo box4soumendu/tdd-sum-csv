@@ -12,7 +12,7 @@ npm test
 ## Steps:
 - Create a simple String calculator with a method signature like this:
 
-    StringCalculator(1,2,3,4)
+    StringCalculator.add("1/n2,3,4")
 
 Input: a string of comma-separated numbers  
 Output: an integer, sum of the numbers
